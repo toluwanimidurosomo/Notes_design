@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.mainCont {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    /* background-color: black; */
+}
+
+.mainCont .innerCont {
+    width: 30%;
+    height: 100%;
+    /* padding: 15px; */
+    border: 3px black solid;
+    border-radius: 60px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ffffff; */
+    /* padding: 15px 15px 0px 15px; */
+}
+
+.mainCont .innerCont .upperPart {
+    padding: 15px;
+}
+
+/* .mainCont .innerCont .top {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.mainCont .innerCont .topDesign {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    align-items: center;
+}
+
+.mainCont .innerCont .topDesign .time {
+    margin-left: 40px;
+    font-weight: bolder;
+}
+
+.mainCont .innerCont .topDesign .topMid {
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.mainCont .innerCont .topDesign .topSide {
+    margin-right: 20px;
+}
+
+.mainCont .innerCont .upperPart .topOne {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+span {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCont .innerCont .upperPart .topOne .notes {
+    display: block;
+    justify-content: left;
+    text-align: left;
+}
+
+.mainCont .innerCont .upperPart .topTwo {
+    display: flex;
+    justify-content: right;
+}
+
+.mainCont .innerCont .secondCont {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomRow {
+    display: inline-block;
+    justify-content: center;
+    align-items: center
+        /* display: ; */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomLine {
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 10px;
+    margin: 130px 0px 8px 150px;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+/* .mainCont .innerCont .folderArea {
+    height: 50%;
+    /* position: absolute; */
+    /* width: 29.5%; */
+    /* overflow-y: scroll; */
+    /* margin: 20px; */
+/* } */
+
+
+/* .mainCont .folderArea .folder1 {
+    background-color: pink;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+} */
+
+/* h1 {
+    margin-top: 20px;
+} */
+
+/* h3 {
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin-top: 10px;
+}
+
+.circle {
+    position: relative;
+    left: 60%;
+}
+
+.bottomRow {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    margin-top: 15%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.bottomRow .circle {
+    font-size: 10%;
+}
+
+.bottomRow .cross {
+    position: relative;
+    right: 60px;
+    bottom: 25px;
+    right: 73px;
+}  */
